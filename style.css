@@ -33,4 +33,5 @@ h1{
 .btn{
 	border-radius: 20px;
 	text-transform: capitalize;
+	text-align: center;
 }
