@@ -1,0 +1,37 @@
+body,
+html,
+header {
+  width: 100%;
+  height: 100%; 
+}
+
+header {
+	background: url("bg-beach.jpg") center;
+	background-size: cover;
+}
+
+h1, a{
+	color: rgba(255, 255, 255, 0.9);
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+	cursor: default;
+}
+
+.container{
+	text-align: center;
+	position: relative;
+	top: 400px;
+}
+
+.active{
+	color: #428bca;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.btn{
+	border-radius: 20px;
+	text-transform: capitalize;
+}
